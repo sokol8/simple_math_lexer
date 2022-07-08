@@ -20,7 +20,7 @@ class Parser:
 			self.current_token = None
 
 	def parse(self):
-		logging.debug('parsing starts')
+		# logging.debug('parsing starts')
 		if self.current_token == None:
 			return None
 
